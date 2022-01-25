@@ -66,7 +66,7 @@ HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
 
 
 if STRING_1:
-    session = StringSession(str(STRING_SESSION))
+    session = StringSession(str(STRING_1))
     bot = TelegramClient(
         session=session,
         api_id=API_KEY,
