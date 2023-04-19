@@ -33,7 +33,7 @@ if version_info[0] < 3 or version_info[1] < 9:
     sys.exit(1)
 
 # Global Variables
-CMD_HELP = {.}
+CMD_HELP = {}
 CMD_LIST = {}
 SUDO_LIST = {}
 LOAD_PLUG = {}
